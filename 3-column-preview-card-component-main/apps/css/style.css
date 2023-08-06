@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Big Shoulders Display', cursive;
+  background-color: hsl(0, 0%, 95%);
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1{
+  color:hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+ 
+
+img{
+  padding-bottom: 1rem;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5rem;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  padding-bottom: 5rem;
+}
+
+button{
+  font-family: 'Lexend Deca', sans-serif;
+  border-radius: 30px;
+  border-style: none;
+  margin-bottom: 1rem;
+  padding: 0.8rem 2rem;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-1 h3{
+  color: hsl(31, 77%, 52%);
+}
+.btn-2 h3{
+  color: hsl(184, 100%, 22%);
+}
+.btn-3 h3{
+  color: hsl(179, 100%, 13%);
+}
+.sedans,.suvs, .luxury{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  padding: 1.5rem;
+  align-items:first baseline;
+  justify-content:first baseline  ;
+  max-width: 300px;
+  max-height: 1400px;
+}
+
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  display: flex;
+  flex-direction: column;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+  display: flex;
+  flex-direction: column;
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.attribution 
+{ font-size: 11px; 
+  text-align: center; }
+.attribution a
+ { color: hsl(228, 45%, 44%),
+  hsl(31, 77%, 52%) 
+  hsl(184, 100%, 22%)
+  hsl(179, 100%, 13%)
+  hsla(0, 0%, 100%, 0.75)
+  hsl(0, 0%, 95%)
+ }
